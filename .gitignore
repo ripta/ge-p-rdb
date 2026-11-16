@@ -1,0 +1,20 @@
+# Build output
+/build/
+
+# Test and coverage output
+*.test
+*.out
+coverage.*
+
+# Raw scanner data can contain patient information. Keep it out of the repo.
+P*.7
+*.7
+
+# Images written by pfinfo -png
+*.png
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
